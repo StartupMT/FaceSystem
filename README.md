@@ -1,17 +1,17 @@
-# Face_recognition_based_attendance_system
-A python GUI integrated attendance system using face recognition to take attendance.
+# Face_system
+Hệ thống chấm công tích hợp python GUI sử dụng nhận dạng khuôn mặt để điểm danh.
 
-In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
+Trong dự án python này, tôi đã tạo một hệ thống điểm danh bằng cách sử dụng kỹ thuật nhận dạng khuôn mặt. Tôi cũng đã tích hợp nó với GUI (Giao diện người dùng đồ họa) để mọi người có thể dễ dàng sử dụng. GUI cho dự án này cũng được tạo trên python bằng tkinter.
 
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
+CÔNG NGHỆ ĐƯỢC SỬ DỤNG:
+1) tkinter cho toàn bộ GUI
+2) OpenCV để chụp ảnh và nhận dạng khuôn mặt (cv2.face.LBPHFaceRecognizer_create ())
+3) CSV, Numpy, Pandas, datetime, v.v. cho các mục đích khác.
 
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for deatils of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+TÍNH NĂNG, ĐẶC ĐIỂM:
+1) Dễ sử dụng với hỗ trợ GUI tương tác.
+2) Mật khẩu bảo vệ để đăng ký người mới.
+3) Tạo / Cập nhật tệp CSV cho các sinh viên bị mất điểm khi đăng ký.
+4) Tạo tệp CSV mới hàng ngày để tham dự và đánh dấu sự tham dự với ngày và giờ thích hợp.
+5) Hiển thị cập nhật điểm danh trực tiếp trong ngày trên màn hình chính ở định dạng bảng với Id, tên, ngày và giờ.
 
